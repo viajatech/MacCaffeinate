@@ -22,3 +22,17 @@ Para detenerlo:
 -------
 killall caffeinate
 --------
+🔎 1. Ver si el proceso está activo
+
+En la terminal:
+-----
+
+ps aux | grep caffeinate
+----
+
+Si ves algo como esto:
+
+david   12345   0.0  caffeinate -d -i -m -u
+----
+
+👉 listo, sí está funcionando
